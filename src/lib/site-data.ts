@@ -285,5 +285,5 @@ export const siteData = {
     },
   ],
 
-  agenturos_credit: "Novera komandos",
+  agenturos_credit: "jarvisweb.lt",
 };
