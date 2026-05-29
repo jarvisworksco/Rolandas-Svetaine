@@ -76,10 +76,55 @@ export const siteData = {
 
   paslaugos: [
     {
+      slug: "avariniu-medziu-pjovimas",
+      kategorija: "Avarinių medžių pjovimas",
+      ikona: "TreePine",
+      foto: "/images/services/01.jpg",
+      kaina: "nuo 40 € už val.",
+      punktai: [
+        "Pavojingų ir avarinių medžių pjovimas",
+        "Aukštų medžių genėjimas arboristiniu būdu",
+        "Pjovimas kapinėse ir prie elektros laidų",
+        "Lajos surišimas, darbas su bokšteliu",
+      ],
+      aprasymas:
+        "Pjauname pavojingus ir avarinius medžius visoje Lietuvoje – ir sudėtingiausiose vietose: kapinėse, prie elektros laidų ar arti pastatų. Aukštus medžius genime arboristiniu būdu, lają surišame, prireikus dirbame su bokšteliu. Kitų darbų kainos nuo 15 €/val.",
+    },
+    {
+      slug: "obeliu-vaismedziu-genejimas",
+      kategorija: "Obelų, vaismedžių genėjimas",
+      ikona: "Apple",
+      foto: "/images/services/02.jpg",
+      kaina: "nuo 5 € už vnt.",
+      punktai: [
+        "Profesionalus obelų genėjimas",
+        "Senų obelų atjauninantis genėjimas",
+        "Vaismedžių formavimas geresniam derliui",
+        "Vaismedžių purškimas nuo kenkėjų ir ligų",
+      ],
+      aprasymas:
+        "Profesionaliai genime obelis ir visus vaismedžius, įskaitant senų, apleistų obelų atjauninantį genėjimą. Suformuojame medžius geresniam derliui, prireikus purškiame nuo kenkėjų ir ligų.",
+    },
+    {
+      slug: "kelmu-naikinimas-frezavimas",
+      kategorija: "Kelmų naikinimas, frezavimas",
+      ikona: "Shovel",
+      foto: "/images/services/03.jpg",
+      kaina: "nuo 20 € už vnt.",
+      punktai: [
+        "Kelmų išgręžimas ir frezavimas",
+        "Iškasimas ekskavatoriumi arba bobcatu",
+        "Mažų kelmų iškasimas rankomis",
+        "Teritorijos paruošimas naudojimui",
+      ],
+      aprasymas:
+        "Naikiname kelmus juos išgręždami ir frezuodami, o didesnius iškasame ekskavatoriumi arba bobcatu. Mažus kelmus pašaliname rankomis. Po darbų teritorija paruošta tolimesniam naudojimui.",
+    },
+    {
       slug: "tuju-gyvatvoriu-trumpinimas",
       kategorija: "Tujų, gyvatvorių trumpinimas, karpymas",
       ikona: "Scissors",
-      foto: "/images/services/01.jpg",
+      foto: "/images/services/04.jpg",
       kaina: "nuo 50 € už projektą",
       punktai: [
         "Tujų ir visų gyvatvorių trumpinimas bei karpymas",
@@ -94,7 +139,7 @@ export const siteData = {
       slug: "vejos-pjovimas",
       kategorija: "Vejos pjovimas",
       ikona: "Leaf",
-      foto: "/images/services/02.jpg",
+      foto: "/images/services/05.jpg",
       kaina: "nuo 30 € už projektą",
       punktai: [
         "Vejos pjovimas profesionalia Viking vejapjove",
@@ -106,10 +151,25 @@ export const siteData = {
         "Vejos pjovimas profesionalia Viking firmos vejapjove. Kraštus tvarkingai apipjauname Stihl akumuliatoriniu trimeriu – jūsų veja atrodys prižiūrėta ir tvarkinga.",
     },
     {
+      slug: "apleistu-sklypu-tvarkymas",
+      kategorija: "Apleistų sklypų tvarkymas",
+      ikona: "Leaf",
+      foto: "/images/services/06.jpg",
+      kaina: "nuo 100 € už projektą",
+      punktai: [
+        "Apleistų ir užaugusių sklypų valymas",
+        "Krūmų, medžių ir šakų šalinimas",
+        "Žaliųjų atliekų surinkimas ir išvežimas",
+        "Teritorijos paruošimas naudojimui",
+      ],
+      aprasymas:
+        "Sutvarkome apleistus ir užaugusius sklypus – pašaliname krūmus, medžius, šakas ir kitas atliekas. Rezultatas – švari, tvarkinga ir naudojimui paruošta teritorija.",
+    },
+    {
       slug: "malku-pardavimas",
       kategorija: "Malkų pardavimas",
       ikona: "Truck",
-      foto: "/images/services/03.jpg",
+      foto: "/images/services/07.jpg",
       kaina: "nuo 60 € už m³",
       punktai: [
         "Malkų pardavimas nuo 60 € už kubą",
@@ -124,7 +184,7 @@ export const siteData = {
       slug: "malku-skaldymas-pjovimas",
       kategorija: "Malkų skaldymas, pjovimas, sudėjimas į rietuvę",
       ikona: "TreePine",
-      foto: "/images/services/04.jpg",
+      foto: "/images/services/08.jpg",
       kaina: "nuo 100 € už projektą",
       punktai: [
         "Malkų pjovimas ir skaldymas profesionaliais įrankiais",
